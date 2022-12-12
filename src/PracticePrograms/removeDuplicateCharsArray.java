@@ -3,19 +3,13 @@ package PracticePrograms;
 import java.util.Scanner;
 
 public class removeDuplicateCharsArray {
-	public static void removeDuplicates() {
-		try (Scanner input = new Scanner(System.in)){
-			System.out.println("Enter the String:");
-			String str = input.next();
-			char[] charArray = str.toCharArray();
-			String newString = "";
-			
-			for (char value: charArray) {
-				if (newString.indexOf(value)==-1) {
-					newString+=value;
-				}
+	public static String removeDuplicates(String input) {
+		char[] charArray = input.toCharArray();
+		String finalResult = "";
+		for (int i=0; i<charArray.length; i++){
+			if (finalResult.indexOf(charArray[i]) == -1){
+				finalResult = finalResult + charArray[i];
 			}
-			System.out.println("The new String is: "+newString);
 		}
 		return finalResult;
 	}
