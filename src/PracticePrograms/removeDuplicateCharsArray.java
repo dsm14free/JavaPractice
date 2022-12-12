@@ -17,9 +17,11 @@ public class removeDuplicateCharsArray {
 			}
 			System.out.println("The new String is: "+newString);
 		}
+		return finalResult;
 	}
 	
 	public static void main(String[] args) {
-		removeDuplicateCharsArray.removeDuplicates();
+		String finalResult = removeDuplicateCharsArray.removeDuplicates("Duppllicataee");
+		System.out.println("New String: " +finalResult);
 	}
 }
