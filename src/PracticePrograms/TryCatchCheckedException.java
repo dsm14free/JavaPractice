@@ -1,6 +1,7 @@
 package PracticePrograms;
 
 import java.io.FileNotFoundException;
+//import java.io.*;
 import java.io.PrintWriter;
 
 public class TryCatchCheckedException {
@@ -9,10 +10,10 @@ public class TryCatchCheckedException {
 
         PrintWriter pw;
         try {
-            pw = new PrintWriter(""); //may throw exception
+            pw = new PrintWriter("");
             pw.println("saved");
         }
-// providing the checked exception handler
+// providing the checked exception handler (IOException / FileNotFoundException)
         catch (FileNotFoundException e) {
 
             System.out.println(e.getMessage());
