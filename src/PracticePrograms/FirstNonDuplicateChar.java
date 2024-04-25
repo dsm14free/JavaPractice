@@ -8,7 +8,7 @@ public class FirstNonDuplicateChar {
             int beginIndex=i+1;
             int endIndex=i;
 
-            if(str.indexOf(charArray[i],beginIndex,str.length()-1)==-1) {
+            if(str.indexOf(charArray[i],beginIndex,str.length())==-1) {
                 if (str.indexOf(charArray[i], 0, endIndex) == -1) {
                     System.out.println("Hello: " + charArray[i]);
                     char nonDuplicateChar = charArray[i];
@@ -21,7 +21,7 @@ public class FirstNonDuplicateChar {
 
     public static void main(String[] args){
         FirstNonDuplicateChar obj = new FirstNonDuplicateChar();
-        obj.firstNDuplicateChar("dupildicate");
+        obj.firstNDuplicateChar("dad");
     }
 }
 
