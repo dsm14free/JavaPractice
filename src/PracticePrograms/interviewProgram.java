@@ -1,8 +1,7 @@
 package PracticePrograms;
 
 public class interviewProgram {
-    //durga123shankar456
-    //123+456
+    // Accept 'durga123shankar456' as a String and extract the numbers from the string and add the numbers.
     public static void addNumbersOnly(String str){
         int num=0;
         String[] strArray = str.split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)");

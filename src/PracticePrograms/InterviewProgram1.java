@@ -1,8 +1,7 @@
 package PracticePrograms;
 
 public class InterviewProgram1 {
-    //Array 1 to 7, value: d=2
-    //3,4,5,6,7,1,2
+    //Take an Integer array 1,2,3,4,5,6,7 and another input as 4. Output should be 5,6,7,1,2,3,4
 
     public static void rotateArray(String[] strArray, int d){
 
