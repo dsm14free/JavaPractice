@@ -28,7 +28,6 @@ public class AverageNumberOfLetters {
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }
-
     }
 
     public static void main(String[] args){
