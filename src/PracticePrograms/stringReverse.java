@@ -20,5 +20,4 @@ public class stringReverse{
 	public static void main(String[] args) {
 		stringReverse.reverseString("This is a house");
 	}
-	
 }
